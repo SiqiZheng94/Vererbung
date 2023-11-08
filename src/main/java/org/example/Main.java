@@ -4,10 +4,15 @@ package org.example;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Vehicle vehicle = new Vehicle();
+        Vehicle vehicle = new Vehicle("Tesla","Y",2018);
         vehicle.vehicleInfo();
 
-        Car car = new Car();
+        Car car = new Car("Tesla","Y",2018, 2);
         car.carInfo();
+        System.out.println(car);
+
+        Motorcycle motor = new Motorcycle("ddf","kfjkl",2020,"Chopper");
+        motor.motorInfo();
+        System.out.println(motor);
     }
 }
