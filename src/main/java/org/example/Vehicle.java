@@ -4,6 +4,9 @@ public class Vehicle {
     private String manufacturer;
     private String model;
     private int year;
+    public Vehicle(){
+
+    }
 
     public Vehicle(String manufacturer, String model, int year) {
         this.manufacturer = manufacturer;

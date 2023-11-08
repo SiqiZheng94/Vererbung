@@ -2,7 +2,9 @@ package org.example;
 
 public class Motorcycle extends Vehicle{
     private String type;
+    public Motorcycle(){
 
+    }
 
     public Motorcycle(String manufacturer, String model, int year, String type) {
         super(manufacturer, model, year);
